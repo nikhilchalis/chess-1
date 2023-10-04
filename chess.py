@@ -1,4 +1,4 @@
-'''import chess
+import chess
 
 def display_board(board):
     board_str = board.__str__()  # Get the board's string representation
@@ -16,7 +16,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-'''
+
 
 import numpy as np
 
