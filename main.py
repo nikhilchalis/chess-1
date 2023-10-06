@@ -51,24 +51,6 @@ def drawPieces(screen, board):
             if piece != "--":
                 screen.blit(IMAGES[piece], pg.Rect(col*SQUARE_SIZE, row*SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE))
                 
-    
-
-
-
 
 if __name__ == "__main__":
     main()
-
-
-import numpy as np
-
-board = np.array([
-    ["bR", "bN", "bB", "bQ", "bK", "bB", "bN", "bR"],
-    ["bP", "bP", "bP", "bP", "bP", "bP", "bP", "bP"],
-    ["--", "--", "--", "--", "--", "--", "--", "--"],
-    ["--", "--", "--", "--", "--", "--", "--", "--"],
-    ["--", "--", "--", "--", "--", "--", "--", "--"],
-    ["--", "--", "--", "--", "--", "--", "--", "--"],
-    ["wP", "wP", "wP", "wP", "wP", "wP", "wP", "wP"],
-    ["wR", "wN", "wB", "wQ", "wK", "wB", "wN", "wR"]
-])
